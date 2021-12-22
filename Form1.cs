@@ -17,7 +17,7 @@ namespace КурсоваяТРПО
         public Form1()
         {
             InitializeComponent();
-           
+            // product = new People(3, "Смирнова", "Ж", "Отдел Кулинарии", "23.12.1974", 2000, "Повар", 9000);
             People product = new People(1, "Бочкарёва", "Ж", "Отдел Образовния", "12.06.1984", 2010, "Преподаватель", 15000);
             table_of_people.Add(product);
             product = new People(2, "Марков", "М", "Отдел Безопасности", "11.09.1955", 1987, "Охранник", 17000);
